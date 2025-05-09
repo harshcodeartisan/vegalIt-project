@@ -1,0 +1,124 @@
+.custom-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: #2563eb; /* Tailwind bg-blue-600 */
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  text-decoration: none;
+  gap: 8px;
+}
+
+.custom-contact-btn:hover {
+  background-color: #1d4ed8; /* Tailwind hover:bg-blue-700 */
+  border: 2px solid #2ecc71;
+}
+
+.custom-contact-btn .svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-contact-btn .svg-icon {
+  width: 18px;
+  height: 18px;
+  fill: #2ecc71;
+  transition: all 0.3s ease;
+}
+
+.custom-contact-btn:hover .svg-icon {
+  animation: jello-vertical 0.9s both;
+  transform-origin: left;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.custom-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: #2563eb; /* Tailwind bg-blue-600 */
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  text-decoration: none;
+  gap: 8px;
+}
+
+.custom-contact-btn:hover {
+  background-color: #1d4ed8; /* Tailwind hover:bg-blue-700 */
+  border: 2px solid #2ecc71;
+}
+
+.custom-contact-btn .svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-contact-btn .svg-icon {
+  width: 18px;
+  height: 18px;
+  fill: #2ecc71;
+  transition: all 0.3s ease;
+}
+
+.custom-contact-btn:hover .svg-icon {
+  animation: jello-vertical 0.9s both;
+  transform-origin: left;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
